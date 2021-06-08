@@ -8,7 +8,7 @@ const Footer = (props) => {
     <footer id="contact" style={bgStyle} className="mt-auto py-5 text-center ">
       <Container>
         {props.children}
-        <i class="far fa-copyright"></i> copyright 2021{" "}
+        <i class="far fa-copyright"></i> Copyright 2021{" "}
         <a
           className="badge badge-dark"
           rel="noopener"
