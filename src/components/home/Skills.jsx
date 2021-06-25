@@ -21,7 +21,7 @@ function Skills({ heading, hardSkills, softSkills }) {
   return (
     <Jumbotron ref={skillsTabRef} fluid className="bg-white m-0" id="skills">
       <Container className="p-5 ">
-        <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
+        <h2 ref={skillsTabRef} className="display-4 pb-5 text-center heading">
           {heading}
         </h2>
         <Tabs

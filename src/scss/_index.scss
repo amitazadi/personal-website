@@ -74,7 +74,7 @@ code {
   margin-left: 15px;
   font-size: 23px;
   font-weight: 700;
-
+  // color: black;
   &:hover {
     color: #363636;
     font-size: 25px;
@@ -112,6 +112,7 @@ code {
   color: #fff;
   text-align: center;
   margin-top: 0px;
+  // font-weight: 1000;
 }
 
 .typist {
@@ -171,3 +172,11 @@ code {
 .about {
   padding-top: 20px;
 }
+
+.heading {
+  font-weight: 500;
+}
+
+// .nameHeading {
+//   font-weight: 350;
+// }
