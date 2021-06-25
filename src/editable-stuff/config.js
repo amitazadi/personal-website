@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Amit",
   middleName: "",
   lastName: "Kumar",
-  message: "Competitive Programmer | Full Stack Developer | DS-Algo Expert",
+  message: "Competitive Programmer | Full Stack Developer | DS-Algo Expert", // not working
   icons: [
     {
       image: "fa-linkedin",
@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/amit.png"),
   imageSize: 350,
   message:
-    "Hi! I'm Amit Kumar, pursuing my graduation from IIIT Gwalior with a degree IPG-MTech in Information Technology.  I'm most passionate about solving real life problems through programming and I aim to pursue this passion in the field of software engineering. In my free time, I like to do Comptitive Coding and to learn new algorithms.",
+    "Hi! I'm Amit Kumar, pursuing my graduation from IIIT Gwalior with a degree of IPG-MTech in Information Technology.  I'm most passionate about solving real life problems through programming and I aim to pursue this passion in the field of software engineering. In my free time, I like to do Competitive Coding and to learn new algorithms.",
   resume:
     "https://drive.google.com/file/d/1_ksiGUCmNaUVI40Ifykkb5OQTb2SUHvJ/view?usp=sharing",
 };

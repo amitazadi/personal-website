@@ -1,5 +1,6 @@
 import React from "react";
 import Typist from "react-typist";
+import Typed from "react-typed";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
@@ -20,10 +21,26 @@ const MainBody = React.forwardRef(
           <h1 ref={ref} className="display-1">
             {title}
           </h1>
-          <Typist className="lead typist" cursor={{ show: false }}>
+          {/* <Typist className="lead typist" cursor={{ show: false }}>
             {" "}
             {message}
-          </Typist>
+          </Typist> */}
+
+          <Typed
+            className="typed-text lead typist"
+            strings={[
+              "Competitive Programmer",
+              "Full Stack Developer",
+              "Open Source Contributor",
+              "DS-Algo Expert",
+              "Problem Solver",
+              "IIIT Gwalior'23",
+            ]}
+            typeSpeed={80}
+            backSpeed={10}
+            loop
+          ></Typed>
+
           <div className="p-5">
             {icons.map((icon, index) => (
               <a

@@ -23,6 +23,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.4",
+    "react-typed": "^1.2.0",
     "react-typist": "^2.0.5",
     "typescript": "^3.9.9"
   },

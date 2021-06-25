@@ -23,12 +23,12 @@ code {
 .bgstyle {
   background: linear-gradient(
     136deg,
-    #1ad7c0,
-    #8e44ad,
-    #dd942d,
-    #1f3a93,
+    #015047,
+    #5e4568,
+    #8d6833,
+    #435692,
     #886b03,
-    #161616fd
+    #312d2dfa
   );
   // background: linear-gradient(
   //   136deg,
@@ -63,7 +63,8 @@ code {
 .brand {
   color: #363636 !important;
   font-size: 35px;
-  margin-left: 20px;
+  margin-left: 30px;
+  font-weight: 700;
   @media (min-width: 360px) {
     font-size: 30px;
   }
@@ -71,10 +72,13 @@ code {
 .nav-link {
   transition: color, 0.2s;
   margin-left: 15px;
+  font-size: 23px;
+  font-weight: 700;
+
   &:hover {
     color: #363636;
     font-size: 25px;
-    padding: 6px 0;
+    padding: 6px 4px;
   }
 }
 .toggler {
@@ -136,6 +140,7 @@ code {
 .skills-tab {
   flex-grow: 1;
   text-align: center;
+  color: black;
 }
 
 .progress {
@@ -152,7 +157,7 @@ code {
 }
 
 .navItems {
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 .aboutsection {
