@@ -56,7 +56,7 @@ const about = {
   message:
     "Hi! I'm Amit Kumar, pursuing my graduation from IIIT Gwalior with a degree of IPG-MTech in Information Technology.  I'm most passionate about solving real life problems through programming and I aim to pursue this passion in the field of software engineering. In my free time, I like to do Competitive Coding and to learn new algorithms.",
   resume:
-    "https://drive.google.com/file/d/1_ksiGUCmNaUVI40Ifykkb5OQTb2SUHvJ/view?usp=sharing",
+    "https://drive.google.com/file/d/1QiErBmRstt5v5dtFpqKeYs_q2emzJrHv/view?usp=sharing",
 };
 
 // PROJECTS SECTION

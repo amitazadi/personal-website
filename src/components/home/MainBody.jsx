@@ -1,5 +1,4 @@
 import React from "react";
-import Typist from "react-typist";
 import Typed from "react-typed";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
@@ -55,6 +54,7 @@ const MainBody = React.forwardRef(
               </a>
             ))}
           </div>
+
           <a
             className="btn btn-outline-light btn-lg "
             href="#aboutme"
