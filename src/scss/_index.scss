@@ -165,9 +165,9 @@ code {
 .aboutsection {
   padding-top: 100px;
   height: 650px;
-  // @media (min-width: 360px) {
-  //   height: 1000px;
-  // }
+  @media (min-width: 360px) {
+    height: 850px;
+  }
 }
 
 .about {
@@ -181,3 +181,11 @@ code {
 // .nameHeading {
 //   font-weight: 350;
 // }
+
+.profilepic {
+  @media (min-width: 360px) {
+    height: 230px;
+    width: 230px;
+    margin-left: 60px;
+  }
+}

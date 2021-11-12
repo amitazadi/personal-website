@@ -25,7 +25,7 @@ const mainBody = {
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/profile.php?id=100007123728707",
+      url: "https://www.facebook.com/amitazadi/",
     },
     // {
     //   image: "fa-twitter",
@@ -51,12 +51,13 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/amit.png"),
+  imageLink:
+    "https://res.cloudinary.com/jinkit/image/upload/v1636735786/z4hjshr2ru6ubyspivle.png",
   imageSize: 350,
   message:
     "Hi! I'm Amit Kumar, pursuing my graduation from IIIT Gwalior with a degree of IPG-MTech in Information Technology.  I'm most passionate about solving real life problems through programming and I aim to pursue this passion in the field of software engineering. In my free time, I like to do Competitive Coding and to learn new algorithms.",
   resume:
-    "https://drive.google.com/file/d/1QiErBmRstt5v5dtFpqKeYs_q2emzJrHv/view?usp=sharing",
+    "https://drive.google.com/drive/folders/1Xr_NdFu4FGGQX8ZGRcAEhcxC98417WTw?usp=sharing",
 };
 
 // PROJECTS SECTION

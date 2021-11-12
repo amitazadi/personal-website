@@ -12,39 +12,41 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   const [showPic, setShowPic] = React.useState(Boolean(link));
 
   React.useEffect(() => {
-    if (link && !pictureLinkRegex.test(link)) {
-      handleRequest();
-    } else {
-      setProfilePicUrl(link);
-    }
+    // const handleRequest = async () => {
+    //   const instaLink = "https://www.instagram.com/";
+    //   const instaQuery = "/?__a=1";
+    //   try {
+    //     const response = await axios.get(instaLink + link + instaQuery);
+    //     setProfilePicUrl(response.data.graphql.user.profile_pic_url_hd);
+    //   } catch (error) {
+    //     // setShowPic(false);
+    //     console.error(error.message);
+    //   }
+    // };
+
+    // if (link && !pictureLinkRegex.test(link)) {
+    //   handleRequest();
+    // } else {
+    //   setProfilePicUrl(link);
+    // }
+
+    setProfilePicUrl(link);
   }, [link]);
 
-  const handleRequest = async () => {
-    const instaLink = "https://www.instagram.com/";
-    const instaQuery = "/?__a=1";
-    try {
-      const response = await axios.get(instaLink + link + instaQuery);
-      setProfilePicUrl(response.data.graphql.user.profile_pic_url_hd);
-    } catch (error) {
-      setShowPic(false);
-      console.error(error.message);
-    }
-  };
+  console.log(profilePicUrl);
 
   return (
     <div id="aboutme" className="jumbotron jumbotron-fluid m-0 aboutsection">
       <div className="container container-fluid">
         <div className="row">
-          <div className="col-5 d-none d-lg-block align-self-center">
-            {showPic && (
-              <img
-                className="border border-secondary rounded-circle"
-                src={profilePicUrl}
-                alt="profilepicture"
-                width={imgSize}
-                height={imgSize}
-              />
-            )}
+          <div className="col-5  d-lg-block align-self-center">
+            <img
+              className="border border-secondary rounded-circle profilepic"
+              src={profilePicUrl}
+              alt="profilepicture"
+              width={imgSize}
+              height={imgSize}
+            />
           </div>
 
           <div className={`col-lg-${showPic ? "7" : "12"}`}>
