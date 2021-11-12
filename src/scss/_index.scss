@@ -165,8 +165,9 @@ code {
 .aboutsection {
   padding-top: 100px;
   height: 650px;
-  @media (min-width: 360px) {
-    height: 850px;
+  @media (max-device-width: 480px) {
+    height: 900px;
+    margin-top: -20px;
   }
 }
 
@@ -183,9 +184,10 @@ code {
 // }
 
 .profilepic {
-  @media (min-width: 360px) {
+  @media (max-device-width: 480px) {
     height: 230px;
     width: 230px;
-    margin-left: 60px;
+    margin-left: 50px;
+    margin-bottom: 20px;
   }
 }
