@@ -17,10 +17,7 @@ const MainBody = React.forwardRef(
       >
         <div id="stars"></div>
         <Container className="text-center ">
-          <h1
-            ref={ref}
-            className="display-1 nameHeading  animate__animated animate__tada"
-          >
+          <h1 ref={ref} className="display-1 nameHeading ">
             {title}
           </h1>
 
@@ -54,9 +51,7 @@ const MainBody = React.forwardRef(
                 href={icon.url}
                 aria-label={`My ${icon.image.split("-")[1]}`}
               >
-                <i
-                  className={`fab ${icon.image}  fa-3x socialicons animate__animated animate__bounceInDown`}
-                />
+                <i className={`fab ${icon.image}  fa-3x socialicons`} />
               </a>
             ))}
           </div>
