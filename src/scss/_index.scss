@@ -191,3 +191,8 @@ code {
     margin-bottom: 20px;
   }
 }
+
+.animate__animated.animate__rubberBand {
+  --animate-duration: 2s;
+  --animate-repeat: 20;
+}

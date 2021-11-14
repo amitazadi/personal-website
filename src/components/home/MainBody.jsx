@@ -16,8 +16,11 @@ const MainBody = React.forwardRef(
         className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
         <div id="stars"></div>
-        <Container className="text-center">
-          <h1 ref={ref} className="display-1 nameHeading">
+        <Container className="text-center ">
+          <h1
+            ref={ref}
+            className="display-1 nameHeading  animate__animated animate__tada"
+          >
             {title}
           </h1>
 
@@ -44,13 +47,16 @@ const MainBody = React.forwardRef(
           <div className="p-5">
             {icons.map((icon, index) => (
               <a
+                // className=""
                 key={`social-icon-${index}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 href={icon.url}
                 aria-label={`My ${icon.image.split("-")[1]}`}
               >
-                <i className={`fab ${icon.image}  fa-3x socialicons`} />
+                <i
+                  className={`fab ${icon.image}  fa-3x socialicons animate__animated animate__bounceInDown`}
+                />
               </a>
             ))}
           </div>
